@@ -3,8 +3,8 @@ import requests
 import openai
 from openai import OpenAI
 import streamlit as st
-from dotenv import load_dotenv
-load_dotenv()
+# from dotenv import load_dotenv
+# load_dotenv()
 
 # OpenAI API 키
 # Openai 스트림릿 업로드용
