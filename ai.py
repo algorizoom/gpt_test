@@ -6,11 +6,11 @@ import streamlit as st
 from dotenv import load_dotenv
 load_dotenv()
 
-# # OpenAI API 키
-# # Openai 스트림릿 업로드용
-# client = OpenAI(
-#     api_key = st.secrets["api_key"]
-# )
+# OpenAI API 키
+# Openai 스트림릿 업로드용
+client = OpenAI(
+    api_key = st.secrets["api_key"]
+)
 
 # # 공식 문서
 # client = OpenAI(
@@ -35,7 +35,7 @@ load_dotenv()
 # else:
 #     print("Error:", response.status_code)
 
-client = OpenAI()
+# client = OpenAI()
 
 # gpt-3.5-turbo
 def gpt_turbo(user_input):
